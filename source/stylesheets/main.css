@@ -9,14 +9,12 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
-    height: 100%;
 }
 body {
     margin: 0;
     color: #333;
     line-height: 1;
-    height: 100%;
-    background-image: url("../images/background.png");
+    background: rgba(202, 224, 237, 0.93)
 }
 section{
     display: block;
@@ -51,12 +49,8 @@ ul {
     list-style-type: none;
     padding: 0
 }
-#wrapper {
-    min-height: 100%;
-    height: auto !important;
-}
 header {   
-    margin: 15% 0 0;
+    margin: 10% 0 0;
     text-align: center;
 }
 header h1 {
