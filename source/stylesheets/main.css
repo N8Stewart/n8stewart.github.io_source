@@ -16,6 +16,7 @@ body {
     color: #333;
     line-height: 1;
     height: 100%;
+    background-image: url("../images/background.png");
 }
 section{
     display: block;
@@ -43,7 +44,7 @@ hr {
     height: 0;
 }
 a {
-    color: #307EA9;
+    color: #489fd0;
     text-decoration: none;
 }
 ul {
@@ -53,11 +54,9 @@ ul {
 #wrapper {
     min-height: 100%;
     height: auto !important;
-    height: 100%;
-    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
 }
-header {
-    /*margin: 15% 0 8%;*/
+header {   
+    margin: 15% 0 0;
     text-align: center;
 }
 header h1 {
@@ -89,26 +88,5 @@ header ul li a:hover {
     -o-transition: color 0.25s ease-in;
     -ms-transition: color 0.25s ease-in;
     transition: color 0.25s ease-in;
-    color: #307EA9;
-}
-
-#container {
-    margin: auto;
-    width: 90%;
-    max-width: 650px;
-    height: 100%;
-}
-#container footer {
-    text-align: center;
-    font-weight: 300;
-    font-size: 80%;
-    color: #999;
-    height: 142px;
-    line-height: 142px; /* vertical centering; should be equal to the footer height */
-}
-#container footer p {
-    margin: 0;
-}
-#container footer a {
-    font-size: inherit;
+    color: #489fd0;
 }
