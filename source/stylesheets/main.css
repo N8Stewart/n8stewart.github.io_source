@@ -10,7 +10,7 @@ body {
     margin: 0;
     color: #333;
     line-height: 1;
-    background: rgba(202, 224, 237, 0.93)
+    background: #b6d7ea
 }
 section{
     display: block;
@@ -38,7 +38,7 @@ hr {
     height: 0;
 }
 a {
-    color: #489fd0;
+    color: #2576a3;
     text-decoration: none;
 }
 ul {
@@ -78,5 +78,5 @@ header ul li a:hover {
     -o-transition: color 0.25s ease-in;
     -ms-transition: color 0.25s ease-in;
     transition: color 0.25s ease-in;
-    color: #489fd0;
+    color: #2576a3;
 }
